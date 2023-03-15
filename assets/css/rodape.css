@@ -1,0 +1,20 @@
+.rodape {
+    background-color: var(--borda);
+}
+
+.rodape__contato {
+    color: var(--branco);
+    padding: 2rem;
+    text-align: right;
+    font-size: 32px;
+    font-family: var(--fonte-secundaria);
+    text-transform: lowercase;
+}
+
+@media screen and (max-width: 360px) { 
+
+    .rodape__contato {
+        padding: 2rem 1rem;
+        font-size: 1rem;
+    }
+}

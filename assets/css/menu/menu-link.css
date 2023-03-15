@@ -1,0 +1,21 @@
+.menu__link {
+    color: var(--cinza-medio);
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+.menu__link:hover {
+    text-decoration: underline;
+}
+
+.menu__link.ativo {
+    color: var(--cinza-escuro);
+    font-weight: bold;
+}
+
+@media screen and (max-width: 360px) {
+
+    .menu__link {
+        white-space: nowrap;
+    }
+}

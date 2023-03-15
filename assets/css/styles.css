@@ -1,0 +1,28 @@
+@import url(cabecalho.css);
+@import url(menu/menu-link.css);
+@import url(menu/menu-lista.css);
+@import url(menu/menu-item.css);
+@import url(banner.css);
+@import url(sobre.css);
+@import url(receitas.css);
+@import url(quem-somos.css);
+@import url(rodape.css);
+
+:root {
+    --cinza-claro: #F9F9F9;
+    --cinza-medio: #808080;
+    --cinza-escuro: #333333;
+    --cinza-texto: #8C8888;
+    --cinza-fundo: #E5E5E5;
+    --borda: #C4C4C4;
+    --branco: #FFFFFF;
+    --vinho: #8D0606;
+    --preto: #000000;
+    --fonte-principal: 'Pacifico', cursive;
+    --fonte-secundaria: 'Roboto', sans-serif;
+}
+
+body {
+    font-weight: 400;
+    font-size: 16px;
+}
